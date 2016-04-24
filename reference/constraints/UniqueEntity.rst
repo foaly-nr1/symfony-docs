@@ -39,7 +39,7 @@ your user table:
         use Symfony\Component\Validator\Constraints as Assert;
         use Doctrine\ORM\Mapping as ORM;
 
-        // DON'T forget this use statement!!!
+        // Don't forget this use statement
         use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
         /**
